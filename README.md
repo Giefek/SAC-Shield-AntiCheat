@@ -79,4 +79,4 @@ Shield Anti-Cheat is a separate program running on client side. But you can stil
 - AntiIPBanBypass - An additional layer of network protection. It prevents attempts to mask identity and immediately cuts off attempts by banned users to return to the game using advanced methods of changing network parameters.
   
 **Data And Logs Export**
-- Although SAC operates on the client-side, it offers extensive log export capabilities. Detections, warnings, and errors can be sent directly to VPS Servers, Dedicated web panels Or Discord Channels via Webhook support.rokie możliwości eksportu logów. Wykrycia, ostrzeżenia oraz błędy mogą być przesyłane bezpośrednio do Serwerów VPS, Dedykowanych paneli na stronach WWW Lub Kanałów na Discordzie za pomocą wspierania Webhooków.
+- Although SAC operates on the client-side, it offers extensive log export capabilities. Detections, warnings, and errors can be sent directly to VPS Servers, Dedicated web panels Or Discord Channels via Webhook.
