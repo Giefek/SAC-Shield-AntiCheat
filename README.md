@@ -5,7 +5,7 @@
 
 ## ℹ️ Overview
 
-Shield Anti-Cheat is a separate program running on client side. But you can still connect it to your servers. You can easily send logs to your VPS, website, or even to a Discord webhook. We tested it on many free and paid cheats. It works for different games and different game engines. If you are a game developer and want to use this anti-cheat, please contact us on Discord Support (username: Giefek).
+Shield Anti-Cheat is a separate program running on client side. But you can still connect it to your servers. You can easily send logs to your VPS, website, or even to a Discord webhook. We tested it on many free and paid cheats. It works for different game engines. If you are a game developer and want to use this anti-cheat, please contact us on Discord Support username: Giefek
 
 ## 🌟 Core Features
 
@@ -53,3 +53,30 @@ Shield Anti-Cheat is a separate program running on client side. But you can stil
 └── Menu/
     ├── Main.cpp                                # Main entry point that starts all detection loops
     └── Menu.hpp                                # Simple UI code for the anti-cheat status screen
+```
+## 📄 Documentation For Developers
+**Architecture and mode of operation**
+- The system operates entirely on the client-side (Client-Side) at the User Mode level. It does not require injecting DLL files into the game process or installing Kernel-mode drivers on the player's computer.
+
+**Implementation Guide**
+- For security reasons and the closed nature of the project (Closed-Source), the full technical specification and detailed step-by-step implementation guide will be sent to developers only after a conversation with our support. To begin the integration process, verify your project and receive dedicated files and guidelines, contact our support directly on Discord username: Giefek
+
+**Supported operating systems and game engines**
+- Windows 10 and Windows 11. It operates independently of the game engine used.
+
+**Detection methods and protection modules**
+- BlacklistDetections - Identification and immediate blocking of commonly known programs and tools used to manipulate application behavior.
+- ExternalDetections - Detection of unauthorized programs running in the system background that attempt to interact with the running game.
+- InternalDetections - Real-time protection of the game's internal structure. The module ensures that the game code is not illegally modified or expanded with unapproved elements.
+- HandleHijackingDetections - Blocks advanced attempts of illegal takeover of privileges and control over the game by other applications.
+- InputDetections - Heuristic analysis of mouse and keyboard input data. Detects artificial movement patterns.
+- MicrosoftVulnerableDriverBlocklist - Preventive protection against the exploitation of known system vulnerabilities in drivers.
+- WindowsMemoryIntegrity - Verification of the integrity of the operating system kernel memory areas.
+- WindowsSecureBoot - Checking the secure boot status of the computer. This guarantees that the player's operating system booted in a trusted manner and was not modified before launching the game itself.
+- Heartbeat - A system of mutual verification of activity between the game, anti-cheat, and the server. It prevents attempts to intentionally freeze, slow down, or completely block the protective process.
+- InternetConnection - Constant monitoring of the stability and authenticity of the network connection. Protects against artificial manipulation of data packets and intentional induction of network delays for the purpose of cheating.
+- Bans - Logic responsible for reading the player's hardware identifiers. Upon detection of an incident, it is responsible for immediately imposing a permanent ban on the given computer.
+- AntiIPBanBypass - An additional layer of network protection. It prevents attempts to mask identity and immediately cuts off attempts by banned users to return to the game using advanced methods of changing network parameters.
+  
+**Data And Logs Export**
+- Although SAC operates on the client-side, it offers extensive log export capabilities. Detections, warnings, and errors can be sent directly to VPS Servers, Dedicated web panels Or Discord Channels via Webhook support.rokie możliwości eksportu logów. Wykrycia, ostrzeżenia oraz błędy mogą być przesyłane bezpośrednio do Serwerów VPS, Dedykowanych paneli na stronach WWW Lub Kanałów na Discordzie za pomocą wspierania Webhooków.
