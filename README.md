@@ -1,13 +1,13 @@
-# [SAC] Shield Anti-Cheat
-![Supported Platforms](https://img.shields.io/badge/Supported%20Platforms-Windows%2010%2F11-darkred?logo=windows&logoColor=white)
-![Security](https://img.shields.io/badge/Security-Anti--Cheat-darkred)
-![Version](https://img.shields.io/badge/Version-Beta-darkred)
+# [SAC] 🛡️ Shield Anti-Cheat (x64)
+![Supported Systems](https://img.shields.io/badge/Supported%20Systems-Windows%2010%2F11-darkred?logo=windows&logoColor=white)
+![Security](https://img.shields.io/badge/Modern-Anti--Cheat-darkred)
+![Version](https://img.shields.io/badge/Version-0.1--Beta-darkred)
 
-## Overview
+## ℹ️ Overview
 
 Shield Anti-Cheat is a separate program running on client side. But you can still connect it to your servers. You can easily send logs to your VPS, website, or even to a Discord webhook. We tested it on many free and paid cheats. It works for different games and different game engines. If you are a game developer and want to use this anti-cheat, please contact us on Discord Support (username: Giefek).
 
-## Core Features
+## 🌟 Core Features
 
 - Advanced Kernel Detections
 
@@ -21,15 +21,15 @@ Shield Anti-Cheat is a separate program running on client side. But you can stil
 
 - Advanced HWID & IP Ban System
 
-- Sending User Logs To Your Console
+- Sending Logs To Your Server
 
 - Fully Personalized Settings
 
-- Lifetime Fully Free Plan
+- Fully Free Lifetime Plan
 
-- Wonderfully Optimized
+- Well Optimized
 
-## Project Structure
+## 📂 Project Structure
 
 ```
 [SAC] Shield Anti-Cheat/
