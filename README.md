@@ -1,7 +1,7 @@
 # [SAC] 🛡️ Shield Anti-Cheat (x64)
-![Supported Systems](https://img.shields.io/badge/Supported%20Systems-Windows%2010%2F11-darkred?logo=windows&logoColor=white)
+![Supported Systems](https://img.shields.io/badge/Supported%20Systems-Windows%2010%2F11-0067b5?logo=windows&logoColor=white)
 ![Security](https://img.shields.io/badge/Modern-Anti--Cheat-darkred)
-![Version](https://img.shields.io/badge/Version-0.1--Beta-darkred)
+![Version](https://img.shields.io/badge/Version-0.1--Beta-009400)
 
 ## ℹ️ Overview
 
