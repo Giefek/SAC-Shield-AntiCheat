@@ -5,7 +5,7 @@
 
 ## ℹ️ Overview
 
-Coming soon open beta relese of Shield Anti-Cheat is a separate program running on client side. But you can still connect it to your servers. You can easily send logs to your VPS, website, or even to a Discord webhook. We tested it on many free and paid cheats. It works for every game engines.
+<ins>Advanced Multi-Layered Client-Side Anti-Cheat.</ins> Currently SAC is under development but we will soon release the first public beta!
 
 ## 🌟 Core Features
 
@@ -54,11 +54,11 @@ Coming soon open beta relese of Shield Anti-Cheat is a separate program running 
 ```
 ## 📄 Documentation For Developers
 **Architecture and mode of operation**
-- The system operates entirely on the client-side at the User Mode level. It does not require injecting DLL files into the game process or installing Kernel-mode drivers on the player's computer.
+- The system operates entirely on the client-side at the user mode level. It does not require injecting DLL files into the game process or installing kernel-mode drivers on the player's computer.
 
 **Implementation Guide**
-- 1. Select the version of Anti-Cheat you want to use and install it (We always prefer the latest one)
-- 2. Run the installed version of the anti-cheat and configure it according to your needs.
+- I. Select the version of anti-cheat you want to use and install it (We always prefer the latest one)
+- II. Run the installed version of the anti-cheat and configure it according to your needs.
 
 **Supported operating systems and game engines**
 - Windows 10 and Windows 11. It operates independently of the game engine used.
