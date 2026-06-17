@@ -5,11 +5,11 @@
 
 ## ℹ️ Overview
 
-Shield Anti-Cheat is a separate program running on client side. But you can still connect it to your servers. You can easily send logs to your VPS, website, or even to a Discord webhook. We tested it on many free and paid cheats. It works for different game engines. If you are a game developer and want to use this anti-cheat, please contact us on Discord Support username: Giefek
+Shield Anti-Cheat is a separate program running on client side. But you can still connect it to your servers. You can easily send logs to your VPS, website, or even to a Discord webhook. We tested it on many free and paid cheats. It works for every game engines.
 
 ## 🌟 Core Features
 
-- Advanced Kernel Detections
+- Kernel Detections
 
 - Advanced External Detections
 
@@ -23,9 +23,7 @@ Shield Anti-Cheat is a separate program running on client side. But you can stil
 
 - Sending Logs To Your Server
 
-- Fully Personalized Settings
-
-- Fully Free Lifetime Plan
+- Configurable
 
 - Well Optimized
 
@@ -35,31 +33,32 @@ Shield Anti-Cheat is a separate program running on client side. But you can stil
 [SAC] Shield Anti-Cheat/
 ├── Configuration/
 │   ├── Configuration.hpp                       # Main anti-cheat settings and limits
-│   ├── Logs.hpp                                # Local file logs and Discord Webhook output
+│   ├── Logs.hpp                                # Local file logs
 │   └── Whitelist.hpp                           # List of safe and trusted system processes
 ├── Detections/
 │   ├── AntiIPBanBypass.hpp                     # Stops players from bypassing IP bans
 │   ├── Bans.hpp                                # Logic for banning cheaters
 │   ├── BlacklistDetections.hpp                 # Blocks known cheat tools
 │   ├── ExternalDetections.hpp                  # Finds external cheats running in Windows
-│   ├── HandleHijackingDetections.hpp           # Blocks cheats from stealing program handles
+│   ├── HandleHijackingDetections.hpp           # Blocks cheats from handle hijacking
 │   ├── Heartbeat.hpp                           # Keeps the anti-cheat alive and checks if it is running
 │   ├── InputDetections.hpp                     # Detects fake mouse inputs
 │   ├── InternalDetections.hpp                  # Scans game memory for hidden hacks and injected DLLs
-│   ├── InternetConnection.hpp                  # Checks connection to the anti-cheat server
-│   ├── MicrosoftVulnerableDriverBlocklist.hpp  # Blocks dangerous drivers used by cheats
+│   ├── InternetConnection.hpp                  # Checks connection to the server
+│   ├── MicrosoftVulnerableDriverBlocklist.hpp  # Blocks vulnerable drivers used by cheats
 │   ├── WindowsMemoryIntegrity.hpp              # Checks if Windows Memory Integrity (HVCI) is active
 │   └── WindowsSecureBoot.hpp                   # Checks if Windows Secure Boot is turned on
 └── Menu/
     ├── Main.cpp                                # Main entry point that starts all detection loops
-    └── Menu.hpp                                # Simple UI code for the anti-cheat status screen
+    └── Menu.hpp                                # Simple UI code
 ```
 ## 📄 Documentation For Developers
 **Architecture and mode of operation**
-- The system operates entirely on the client-side (Client-Side) at the User Mode level. It does not require injecting DLL files into the game process or installing Kernel-mode drivers on the player's computer.
+- The system operates entirely on the client-side at the User Mode level. It does not require injecting DLL files into the game process or installing Kernel-mode drivers on the player's computer.
 
 **Implementation Guide**
-- For security reasons and the closed nature of the project (Closed-Source), the full technical specification and detailed step-by-step implementation guide will be sent to developers only after a conversation with our support. To begin the integration process, verify your project and receive dedicated files and guidelines, contact our support directly on Discord username: Giefek
+- 1. Select the version of Anti-Cheat you want to use and install it (We always prefer the latest one)
+- 2. Run the installed version of the anti-cheat and configure it according to your needs.
 
 **Supported operating systems and game engines**
 - Windows 10 and Windows 11. It operates independently of the game engine used.
