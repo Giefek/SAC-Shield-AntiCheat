@@ -5,7 +5,7 @@
 
 ## ℹ️ Overview
 
-Shield Anti-Cheat is a separate program running on client side. But you can still connect it to your servers. You can easily send logs to your VPS, website, or even to a Discord webhook. We tested it on many free and paid cheats. It works for every game engines.
+Coming soon open beta relese of Shield Anti-Cheat is a separate program running on client side. But you can still connect it to your servers. You can easily send logs to your VPS, website, or even to a Discord webhook. We tested it on many free and paid cheats. It works for every game engines.
 
 ## 🌟 Core Features
 
