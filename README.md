@@ -50,7 +50,7 @@
 │   └── WindowsSecureBoot.hpp                   # Checks if Windows Secure Boot is turned on
 └── Menu/
     ├── Main.cpp                                # Main entry point that starts all detection loops
-    └── Menu.hpp                                # Simple UI code
+    └── Menu.hpp                                # UI code
 ```
 ## 📄 Documentation For Developers
 **Architecture and mode of operation**
