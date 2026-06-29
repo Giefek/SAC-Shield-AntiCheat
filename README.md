@@ -9,23 +9,23 @@
 
 ## 🌟 Core Features
 
-- Kernel Detections
+- Kernel Detections 
 
-- Advanced External Detections
+- Advanced External Detections 
 
-- Advanced Internal Detections
+- Advanced Internal Detections 
 
-- Advanced Input Detections
+- Advanced Input Detections 
 
-- Blacklisted Programs Detections
+- Blacklisted Programs Detections 
 
-- Advanced HWID & IP Ban System
+- Advanced HWID & IP Ban System 
 
-- Sending Logs To Your Server
+- Sending Logs To Your Server 
 
-- Configurable
+- Configurable 
 
-- Well Optimized
+- Well Optimized 
 
 ## 📂 Project Structure
 
